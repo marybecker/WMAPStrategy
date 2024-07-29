@@ -151,7 +151,7 @@ var legend = L.control({position: 'topleft'});
             };
         } else {
             return {fillColor:'#2ea1cb',
-                radius: 5,
+                radius: 7,
                 color: "#0D2D6C",
                 weight: 2,
                 opacity: 0.2,
