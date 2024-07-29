@@ -62,8 +62,9 @@ $.getJSON(ctsites,function(data){
       marker.bindPopup(
         '<b>Station: </b>' + feature.properties.locationNa+'</br>' +
           "<b>SID: </b>" + feature.properties.staSeq+'</br>' +
-          "<b>Bug Cnt: </b>" + feature.properties.staSeq+'</br>' +
-          "<b>Fish Cnt: </b>" + feature.properties.staSeq+'</br>' +
+          "<b>Bug Cnt: </b>" + feature.properties.bugs+'</br>' +
+          "<b>Fish Cnt: </b>" + feature.properties.fish+'</br>' +
+          "<b>Diatom Cnt: </b>" + feature.properties.diatom+'</br>' +
           "<b>POR: </b>" + feature.properties.minYr+ "-" + feature.properties.maxYr + '</br>' +
           "<b>RMN: </b>" + feature.properties.rmn+'</br>' +
           "<b>EJ: </b>" + feature.properties.ej+'</br>' +
